@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Acesso</title>
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<button id="btn">Menu</button>
+	<script type="text/javascript">
+		var botao = document.getElementById("btn");
+botao.addEventListener('click', function(){
+	console.log('click')
+	alert ("Leve isso a sério")
+})
+	</script>
+
+	<form class="form" action="">
+		<div class="card">
+			<div class="card.top">
+			<img src=""alt="">
+			<h2>Login</h2>
+			
+			</div>
+			
+			<div class="card-group">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Digite seu email"required>
+			</div>
+
+			<div class="card-group">
+				<label>senha</label>
+				<input type="password" name="senha" placeholder="Digite sua senha"required>
+				
+			</div>
+			<a class="Login__reset" href="a">Esqueci a senha</a>
+
+			<div class="card-group">
+				<label><input type="checkbox">Manter conectado</label>
+			</div>
+			<div class="card-group btn">
+				<button type="submit">ACESSAR</button>
+			</div>
+		</div>
+	</form>
+
+</body>	
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+	<link rel="stylesheet" type="text/css" href="style2.0.css">
+	<script defer="script.js" type="./script.js"></script>
+	<title>Login</title>
+</head>
+<body>
+	<main class="login">
+		<div class="login__container">
+			<h1 class="login__title">Login</h1>
+			<form class="login__form">
+				<input class="login__input" type="email" placeholder="e-mail">
+				<spam class="login__input-border"></spam>
+				<input class="login__input" type="password" placeholder="senha">
+				<spam class="login__input-border"></spam>
+				<button class="login__submit">Login</button>
+				<a class="Login__reset" href="a">Esqueci a senha</a> 
+			</form>
+		</div>		
+	</main>
+</body>
+</html>
